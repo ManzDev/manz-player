@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manz Player</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <script type="module" src="./components/ManzPlayer.js"></script>
+    <noscript>
+      <p>Esto es un reproductor que necesita Javascript para mostrar todas sus características.</p>
+    </noscript>
+
+    <manz-player>
+      <h1>MANZDEV</h1>
+      <p>Reproductor multimedia a su servicio.</p>
+      <img src="assets/default-cover.png" alt="Default cover">
+      <iframe loading="lazy" src="https://youtube.com/embed/ysS9y3mUHw4" title="Trailer de ManzDev"></iframe>
+      <iframe loading="lazy" src="https://youtube.com/embed/0sFtRnbe0fo" title="Novedades de CSS"></iframe>
+      <iframe loading="lazy" src="https://youtube.com/embed/pJGEELsEM1w" title="Consejos de frontend"></iframe>
+    </manz-player>
+
+  </div>
+
+</body>
+
+</html>
